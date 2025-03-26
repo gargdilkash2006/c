@@ -4,12 +4,12 @@ void main()
 {
     int heap[10], no, i, j, c, root, temp;
  
-    printf("\n Enter no of elements :");
+    printf("\n Enter the numberss :");
     scanf("%d", &no);
     printf("\n Enter the nos : ");
     for (i = 0; i < no; i++)
        scanf("%d", &heap[i]);
-    for (i = 1; i < no; i++)
+    for (i = 2; i < no; i++)
     {
         c = i;
         do
